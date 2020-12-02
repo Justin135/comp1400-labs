@@ -1,0 +1,35 @@
+Both Problem 1 and Problem 2 are in this file.
+
+Problem 1: Reverse the digits of a number:
+
+
+start
+get (num)
+numReverse = 0
+tempDigit = 0
+while(num != 0)
+	tempDigit = num % 10
+	numReverse = (numReverse * 10) + tempDigit
+	num = num / 10
+end while
+print (numReverse)
+end
+
+
+
+
+Problem 2: Find the frequency of a digit in a number
+
+start
+get (num, digit)
+tempDigit = 0
+count = 0
+while(num != 0)
+	tempDigit = num % 10
+	if tempDigit == digit then
+		count = count + 1
+	end if
+	num = num / 10
+end while
+print (count)
+end

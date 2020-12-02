@@ -1,0 +1,40 @@
+start
+get (A, B)
+if A % 4 != 0 then
+  A = A + (4 - A % 4)
+end if
+
+for i in A ... B increasing by 4
+  if i % 100 == 0 then
+    if i % 400 == 0 then
+      display i
+    end if
+  else
+    display i
+  end if
+end for
+end
+
+
+Problem 2B:
+
+Start
+num1 = 0
+num2 = 0
+Read (num1, num2)
+For num in num1 ... num2
+	sum = 1
+	divider = 2
+	While ((num / 2) >= divider) DO
+		IF (num % divider == 0) Then
+			sum=sum + divider
+		End IF
+		divider = divider + 1
+	End While
+	IF (num == sum) Then
+		Print (num , “ is a perfect number.”)
+	Else
+		Print (num , “ is not a perfect number.”)
+	End IF
+End For
+End.
