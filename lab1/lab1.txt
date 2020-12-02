@@ -1,0 +1,23 @@
+Script started on 2020-09-18 13:16:10-04:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="50"]
+]0;bornais3@alpha: ~/fall2020/comp1400[01;32mbornais3@alpha[00m:[01;34m~/fall2020/comp1400[00m$ clear
+[H[2J[3J]0;bornais3@alpha: ~/fall2020/comp1400[01;32mbornais3@alpha[00m:[01;34m~/fall2020/comp1400[00m$ cat firstPro[Kg.c
+#include <stdio.h>
+
+int main(void) {
+	printf("Welcome to C!\n");
+	printf("Justin Bornais\n");
+	printf("Good Bye!...\n");
+}
+]0;bornais3@alpha: ~/fall2020/comp1400[01;32mbornais3@alpha[00m:[01;34m~/fall2020/comp1400[00m$ cat firstPrg.clear[K[2Ppwdbwdexithelp[K[K[K[Kgcc firstPrg.c -o myProg
+]0;bornais3@alpha: ~/fall2020/comp1400[01;32mbornais3@alpha[00m:[01;34m~/fall2020/comp1400[00m$ ls
+firstPrg.c  lab1.txt  [0m[01;32mmyProg[0m
+]0;bornais3@alpha: ~/fall2020/comp1400[01;32mbornais3@alpha[00m:[01;34m~/fall2020/comp1400[00m$ ./myProg
+Welcome to C!
+Justin Bornais
+Good Bye!...
+]0;bornais3@alpha: ~/fall2020/comp1400[01;32mbornais3@alpha[00m:[01;34m~/fall2020/comp1400[00m$ pwd
+/home/bornais3/fall2020/comp1400
+]0;bornais3@alpha: ~/fall2020/comp1400[01;32mbornais3@alpha[00m:[01;34m~/fall2020/comp1400[00m$ exit
+exit
+
+Script done on 2020-09-18 13:17:39-04:00 [COMMAND_EXIT_CODE="0"]
